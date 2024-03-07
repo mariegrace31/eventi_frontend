@@ -14,7 +14,7 @@ nav {
 .logo {
   font-weight: 700;
   font-size: 40px;
-  color: #5e17eb;
+  color: #6b2aed;
 }
 
 .links {
@@ -35,7 +35,7 @@ nav {
 }
 
 .links a:hover {
-  color: #5e17eb;
+  color: #6b2aed;
   text-decoration: underline;
 }
 
@@ -50,9 +50,9 @@ nav {
   align-items: center;
   color: #fff;
   gap: 4px;
-  background-color: #5e17eb;
+  background-color: #6b2aed;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .prof-icon {
