@@ -1,7 +1,6 @@
 import React from 'react';
 import { PiSignIn } from "react-icons/pi";
 import { FaRegUser } from "react-icons/fa";
-import './Navbar.css';
 
 const Navbar = () => {
   return (
