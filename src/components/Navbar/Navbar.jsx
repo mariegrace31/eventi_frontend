@@ -4,20 +4,20 @@ import { FaRegUser } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav>
-      <p className='logo'>EVENTI</p>
-      <div className='links'>
+    <nav className='flex justify-between'>
+      <p>EVENTI</p>
+      <div>
         <a href="#events">Events</a>
         <a href="#tickets">My tickets</a>
       </div>
-      <div className='user'>
-        <div className="sign">
+      <div>
+        <div>
         <a href="#signin">Sign in</a>
-        <PiSignIn className='sign-icon' />
+        <PiSignIn />
         </div>
-        <div className="prof">
+        <div>
         <a href="profile">My Profile</a>
-        <FaRegUser className='prof-icon'/>
+        <FaRegUser />
         </div>
       </div>
     </nav>
